@@ -1,2 +1,4 @@
 # Smartbite
-An online Food Delivery Web App
+SmartBite- A Seamless Online Food Ordering & Delivery Web App
+
+
