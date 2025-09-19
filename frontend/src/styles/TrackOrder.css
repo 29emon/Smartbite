@@ -1,0 +1,87 @@
+.track-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fafafa;
+  font-family: "Poppins", sans-serif;
+}
+
+.track-card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+}
+
+.track-card h1 {
+  color: #ff4b2b;
+  margin-bottom: 10px;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  position: relative;
+}
+
+.step {
+  text-align: center;
+  flex: 1;
+  position: relative;
+}
+
+.step .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.step.active .circle {
+  background: #ff4b2b;
+  color: white;
+  transform: scale(1.1);
+}
+
+.step p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.status-msg {
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+.delivered-msg {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: green;
+  font-weight: bold;
+}
+
+.track-card button {
+  background: #ff4b2b;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.track-card button:hover {
+  background: #e6391d;
+}

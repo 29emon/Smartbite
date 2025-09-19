@@ -1,0 +1,108 @@
+/* Page container */
+.restaurant-page {
+  padding: 50px 30px;
+  background: #fafafa;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+.restaurant-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ff4b2b;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Restaurant grid */
+.restaurant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+/* Card design */
+.restaurant-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 320px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Image wrapper */
+.restaurant-img-wrapper {
+  width: 100%;
+  height: 200px;
+  background: #f2f2f2; /* fallback background if image fails */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.restaurant-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.restaurant-card:hover .restaurant-img {
+  transform: scale(1.1);
+}
+
+/* Info section */
+.restaurant-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.restaurant-info h2 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 600;
+}
+
+.restaurant-meta {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+/* Order Button */
+.order-btn {
+  background: #ff4b2b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.order-btn:hover {
+  background: #e6391d;
+  transform: scale(1.05);
+}

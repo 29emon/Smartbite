@@ -1,0 +1,98 @@
+.home {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Search Bar */
+.home-search {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.home-search input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.home-search button {
+  background: #ff5722;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Categories */
+.categories {
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.category-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.category-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+/* Featured */
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.featured-card {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Deals */
+.deal-card {
+  background: #fff4e6;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.deal-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #ff5722;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Footer */
+.home-footer {
+  margin-top: 30px;
+  background: #333;
+  color: white;
+  padding: 15px;
+}

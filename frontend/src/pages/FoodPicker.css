@@ -1,0 +1,61 @@
+.food-picker {
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.form input {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form button {
+  padding: 0.8rem 1.2rem;
+  background: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #e64a19;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.food-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 150px;
+  text-align: center;
+}
+
+.food-card img {
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.ai-suggestion {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: #ff5722;
+  font-weight: 300;
+}

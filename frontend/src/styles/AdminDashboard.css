@@ -1,0 +1,18 @@
+.admin-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.admin-container section {
+  margin-top: 2rem;
+}
+
+.admin-user, .admin-order {
+  background: #fefefe;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
